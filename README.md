@@ -86,9 +86,6 @@ El token de autenticacion sera necesario para cada endpoint listado en la seccio
 | GET    | `/cliente-por-id-reserva/:id`            | Datos del cliente de una reserva por ID.         |
 | GET    | `/alquileres-entre-fechas`               | Alquileres entre '2023-07-05' y '2023-07-10'.    |
 
-Puedes usar esta tabla como referencia para la documentación de tus endpoints. ¡Si necesitas más ayuda, no dudes en preguntar!
-
-
 
 ## Autor
 
