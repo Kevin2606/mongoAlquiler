@@ -29,7 +29,7 @@ PASSWORD=""
 DB="db_campus_alquiler"
 JWT_SECRET="secret"
 ```
-> Nota: En el campo hostname y port de SERVER_CONFIG se recomienda en el hostname dejar el valor de "localhost" y en el port se puede cambiar a un puerto que no este en uso, por ejemplo 8080, 3000, 5000, etc. El rango de puertos disponibles es de 0 a 65535, se recomienda no utilizar los puertos reservados que van del 0 al 1023, para mas informacion sobre los puertos reservados [click aqui](https://es.wikipedia.org/wiki/Anexo:Puertos_de_red_utilizados_por_protocolos_de_transporte)
+> Nota: En el campo hostname y port de SERVER se recomienda en el hostname dejar el valor de "localhost" y en el port se puede cambiar a un puerto que no este en uso, por ejemplo 8080, 3000, 5000, etc. El rango de puertos disponibles es de 0 a 65535, se recomienda no utilizar los puertos reservados que van del 0 al 1023, para mas informacion sobre los puertos reservados [click aqui](https://es.wikipedia.org/wiki/Anexo:Puertos_de_red_utilizados_por_protocolos_de_transporte)
 >
 > Nota: En el campo user y password de DB_CONFIG se debe agregar el usuario y contraseña de la base de datos mysql, tambien tener en cuenta que el puerto de mysql por defecto es 3306, si se tiene configurado otro puerto se debe cambiar en el campo port de DB_CONFIG
 > 
