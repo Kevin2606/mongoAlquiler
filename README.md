@@ -61,8 +61,6 @@ El token de autenticacion sera necesario para cada endpoint listado en la seccio
 
 ### Endpoints
 
-¡Por supuesto! Aquí tienes la documentación de los 20 endpoints en forma de tabla:
-
 | Método | Ruta                                       | Descripción                                      |
 |--------|--------------------------------------------|--------------------------------------------------|
 | GET    | `/mostrar-clientes`                        | Mostrar todos los clientes registrados.          |
