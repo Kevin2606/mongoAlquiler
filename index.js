@@ -9,7 +9,7 @@ app.use(express.json())
 app.use('/token', (req, res) => {
   res.send('Hola')
 })
-app.use('/api', alquilerRouter)
+app.use('/', alquilerRouter)
 const config = JSON.parse(process.env.SERVER)
 
 app.listen(config, () => {
