@@ -1,7 +1,7 @@
 # Alquiler de Autos - Reto🚗 🏍️
 
 ## Instalacion y uso
-Para hacer uso de **Wheels Project**  se debe tener instalado [GIT](https://git-scm.com/), [Node.js](https://nodejs.org/es/) y [Mysql](https://www.mysql.com/downloads/).
+Para hacer uso de **mongoAlquiler**  se debe tener instalado [GIT](https://git-scm.com/), [Node.js](https://nodejs.org/es/)
 
 ### Clonar el repositorio
 ```bash
@@ -49,7 +49,7 @@ npm run dev
 ```
 
 ### Uso de la plataforma
-Para hacer uso de la plataforma se debe contar con herramientas informaticas para la realizacion de pruebas de api como **[Thunder Client](https://www.thunderclient.com/)** o **[Postman](https://www.postman.com/)**, ademas necesitas obtener un token de autenticacion, para esto se debe hacer una peticion GET a la ruta **/api/token** con la query tabla y especificar a que tabla se quiere hacer la peticion. 
+Para hacer uso de la plataforma se debe contar con herramientas informaticas para la realizacion de pruebas de api como **[Thunder Client](https://www.thunderclient.com/)** o **[Postman](https://www.postman.com/)**, ademas necesitas obtener un token de autenticacion, para esto se debe hacer una peticion GET a la ruta **/token** con la query tabla y especificar a que tabla se quiere hacer la peticion. 
 El siguiente ejemplo muestra como obtener un token de autenticacion para la tabla usuarios.
 
 ### Obtener token de autenticacion
